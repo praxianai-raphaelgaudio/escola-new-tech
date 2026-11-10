@@ -1,0 +1,12 @@
+{
+  "codigo": "NT-201",
+  "nome": "Análise de Dados com Python",
+  "area": "Dados",
+  "nivel": "Intermediário",
+  "modalidade": "Online ao vivo",
+  "carga_horaria": 60,
+  "duracao_semanas": 10,
+  "preco": 2290.0,
+  "prerequisito": "NT-102 ou Python básico",
+  "proxima_turma": "2026-11-17"
+}

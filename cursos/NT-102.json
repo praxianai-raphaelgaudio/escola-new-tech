@@ -1,0 +1,12 @@
+{
+  "codigo": "NT-102",
+  "nome": "Python para Iniciantes",
+  "area": "Programação",
+  "nivel": "Iniciante",
+  "modalidade": "Online ao vivo",
+  "carga_horaria": 48,
+  "duracao_semanas": 8,
+  "preco": 1590.0,
+  "prerequisito": "NT-101 ou noções de lógica",
+  "proxima_turma": "2026-11-10"
+}

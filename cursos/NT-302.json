@@ -1,0 +1,12 @@
+{
+  "codigo": "NT-302",
+  "nome": "Automação com n8n",
+  "area": "Inteligência Artificial",
+  "nivel": "Intermediário",
+  "modalidade": "Online ao vivo",
+  "carga_horaria": 32,
+  "duracao_semanas": 6,
+  "preco": 1490.0,
+  "prerequisito": "Noções de lógica",
+  "proxima_turma": "2026-11-24"
+}

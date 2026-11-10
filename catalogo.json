@@ -1,0 +1,122 @@
+[
+  {
+    "codigo": "NT-101",
+    "nome": "Lógica de Programação do Zero",
+    "area": "Programação",
+    "nivel": "Iniciante",
+    "modalidade": "Online ao vivo",
+    "carga_horaria": 40,
+    "duracao_semanas": 8,
+    "preco": 1290.0,
+    "prerequisito": "Nenhum",
+    "proxima_turma": "2026-11-03"
+  },
+  {
+    "codigo": "NT-102",
+    "nome": "Python para Iniciantes",
+    "area": "Programação",
+    "nivel": "Iniciante",
+    "modalidade": "Online ao vivo",
+    "carga_horaria": 48,
+    "duracao_semanas": 8,
+    "preco": 1590.0,
+    "prerequisito": "NT-101 ou noções de lógica",
+    "proxima_turma": "2026-11-10"
+  },
+  {
+    "codigo": "NT-201",
+    "nome": "Análise de Dados com Python",
+    "area": "Dados",
+    "nivel": "Intermediário",
+    "modalidade": "Online ao vivo",
+    "carga_horaria": 60,
+    "duracao_semanas": 10,
+    "preco": 2290.0,
+    "prerequisito": "NT-102 ou Python básico",
+    "proxima_turma": "2026-11-17"
+  },
+  {
+    "codigo": "NT-202",
+    "nome": "Excel e Power BI para Negócios",
+    "area": "Dados",
+    "nivel": "Iniciante",
+    "modalidade": "Híbrido",
+    "carga_horaria": 36,
+    "duracao_semanas": 6,
+    "preco": 1190.0,
+    "prerequisito": "Nenhum",
+    "proxima_turma": "2026-11-05"
+  },
+  {
+    "codigo": "NT-301",
+    "nome": "IA Generativa no Trabalho",
+    "area": "Inteligência Artificial",
+    "nivel": "Iniciante",
+    "modalidade": "Online (gravado + 4 encontros ao vivo)",
+    "carga_horaria": 20,
+    "duracao_semanas": 4,
+    "preco": 690.0,
+    "prerequisito": "Nenhum",
+    "proxima_turma": "Início imediato"
+  },
+  {
+    "codigo": "NT-302",
+    "nome": "Automação com n8n",
+    "area": "Inteligência Artificial",
+    "nivel": "Intermediário",
+    "modalidade": "Online ao vivo",
+    "carga_horaria": 32,
+    "duracao_semanas": 6,
+    "preco": 1490.0,
+    "prerequisito": "Noções de lógica",
+    "proxima_turma": "2026-11-24"
+  },
+  {
+    "codigo": "NT-303",
+    "nome": "Desenvolvimento de Agentes de IA",
+    "area": "Inteligência Artificial",
+    "nivel": "Intermediário",
+    "modalidade": "Online ao vivo",
+    "carga_horaria": 64,
+    "duracao_semanas": 12,
+    "preco": 2890.0,
+    "prerequisito": "NT-102 ou Python básico, e NT-301",
+    "proxima_turma": "2026-12-01"
+  },
+  {
+    "codigo": "NT-401",
+    "nome": "UX/UI Design Essencial",
+    "area": "Design",
+    "nivel": "Iniciante",
+    "modalidade": "Presencial (São Paulo)",
+    "carga_horaria": 48,
+    "duracao_semanas": 8,
+    "preco": 1890.0,
+    "prerequisito": "Nenhum",
+    "proxima_turma": "2026-11-07"
+  },
+  {
+    "codigo": "NT-402",
+    "nome": "Fundamentos de Cibersegurança",
+    "area": "Segurança",
+    "nivel": "Iniciante",
+    "modalidade": "Online ao vivo",
+    "carga_horaria": 40,
+    "duracao_semanas": 8,
+    "preco": 1690.0,
+    "prerequisito": "Nenhum",
+    "proxima_turma": "2026-11-12"
+  },
+  {
+    "codigo": "NT-501",
+    "nome": "Gestão de Projetos Ágeis",
+    "area": "Gestão",
+    "nivel": "Iniciante",
+    "modalidade": "Online ao vivo",
+    "carga_horaria": 24,
+    "duracao_semanas": 4,
+    "preco": 990.0,
+    "prerequisito": "Nenhum",
+    "proxima_turma": "2026-11-04"
+  }
+]

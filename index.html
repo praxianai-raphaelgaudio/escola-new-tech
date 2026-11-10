@@ -1,0 +1,48 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>API da Escola New Tech · documentação</title>
+<style>
+:root{--navy:#0B1F33;--blue:#0A84FF;--soft:#F4F9FF;--line:#CBD7E3;--muted:#5B6C7E}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--navy);background:#fff;line-height:1.55}
+header{background:var(--navy);color:#fff;padding:28px 20px} header div,main{max-width:860px;margin:0 auto}
+header small{color:#7FD3FF;letter-spacing:.12em;text-transform:uppercase;font-size:12px} h1{margin:6px 0 4px;font-size:28px}
+main{padding:8px 20px 60px} h2{margin-top:36px;font-size:20px} code,pre{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px}
+pre{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:14px;overflow:auto}
+table{border-collapse:collapse;width:100%;font-size:14px} td,th{border-bottom:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.ep{display:flex;gap:10px;align-items:center;margin:16px 0 6px} .m{background:#1B8F55;color:#fff;border-radius:6px;padding:2px 8px;font-weight:700;font-size:12px}
+.aviso{background:#FBF1DF;border:1px solid #E9C98F;border-radius:8px;padding:12px 14px;font-size:14px}
+</style></head><body>
+<header><div><small>Praxian Academy · Green Belt · material de aula</small><h1>API da Escola New Tech</h1>
+<div>Documentação · versão 2026.2 · somente leitura</div></div></header>
+<main>
+<p class="aviso">A Escola New Tech é <b>fictícia</b>. Esta API existe apenas para os exercícios do Green Belt. É um conjunto de arquivos JSON estáticos: aceita apenas <b>GET</b> e não exige chave.</p>
+<h2>Endereço base</h2>
+<p>Todas as rotas abaixo são relativas ao endereço desta página. Exemplo: se esta página está em <code>https://exemplo.github.io/escola-new-tech/</code>, o catálogo está em <code>https://exemplo.github.io/escola-new-tech/catalogo.json</code>.</p>
+<h2>Rotas</h2>
+<div class="ep"><span class="m">GET</span><code>/catalogo.json</code></div>
+<p>Devolve a lista de todos os cursos. <b>200</b> com uma lista (array) de objetos de curso.</p>
+<div class="ep"><span class="m">GET</span><code>/cursos/{codigo}.json</code></div>
+<p>Devolve um curso pelo código, por exemplo <code>/cursos/NT-102.json</code>. <b>200</b> com um objeto de curso; <b>404</b> se o código não existir.</p>
+<div class="ep"><span class="m">GET</span><code>/politicas.json</code></div>
+<p>Devolve as políticas de pagamento, descontos, reembolso, matrícula e certificado em formato estruturado. <b>200</b> com um objeto.</p>
+<h2>Objeto de curso</h2>
+<table><tr><th>Campo</th><th>Tipo</th><th>Descrição</th></tr><tr><td><code>codigo</code></td><td>texto</td><td>Código do curso, no formato NT-000.</td></tr><tr><td><code>nome</code></td><td>texto</td><td>Nome do curso.</td></tr><tr><td><code>area</code></td><td>texto</td><td>Programação, Dados, Inteligência Artificial, Design, Segurança ou Gestão.</td></tr><tr><td><code>nivel</code></td><td>texto</td><td>Iniciante ou Intermediário.</td></tr><tr><td><code>modalidade</code></td><td>texto</td><td>Ex.: Online ao vivo, Híbrido, Presencial (São Paulo).</td></tr><tr><td><code>carga_horaria</code></td><td>inteiro</td><td>Horas totais do curso.</td></tr><tr><td><code>duracao_semanas</code></td><td>inteiro</td><td>Duração em semanas.</td></tr><tr><td><code>preco</code></td><td>decimal</td><td>Preço de tabela, em reais.</td></tr><tr><td><code>prerequisito</code></td><td>texto</td><td>Texto livre; &quot;Nenhum&quot; quando não há.</td></tr><tr><td><code>proxima_turma</code></td><td>texto</td><td>Data no formato AAAA-MM-DD, ou &quot;Início imediato&quot; para cursos gravados.</td></tr></table>
+<h2>Exemplo de resposta</h2>
+<p><code>GET /cursos/NT-102.json</code> → <b>200</b></p>
+<pre>{
+  &quot;codigo&quot;: &quot;NT-102&quot;,
+  &quot;nome&quot;: &quot;Python para Iniciantes&quot;,
+  &quot;area&quot;: &quot;Programação&quot;,
+  &quot;nivel&quot;: &quot;Iniciante&quot;,
+  &quot;modalidade&quot;: &quot;Online ao vivo&quot;,
+  &quot;carga_horaria&quot;: 48,
+  &quot;duracao_semanas&quot;: 8,
+  &quot;preco&quot;: 1590.0,
+  &quot;prerequisito&quot;: &quot;NT-101 ou noções de lógica&quot;,
+  &quot;proxima_turma&quot;: &quot;2026-11-10&quot;
+}</pre>
+<h2>Erros</h2>
+<table><tr><th>Status</th><th>Quando</th></tr>
+<tr><td><b>404</b> Not Found</td><td>A rota ou o código do curso não existe.</td></tr>
+<tr><td><b>405</b> Method Not Allowed</td><td>Método diferente de GET (por exemplo, POST).</td></tr></table>
+</main></body></html>

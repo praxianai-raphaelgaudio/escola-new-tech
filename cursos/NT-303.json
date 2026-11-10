@@ -1,0 +1,12 @@
+{
+  "codigo": "NT-303",
+  "nome": "Desenvolvimento de Agentes de IA",
+  "area": "Inteligência Artificial",
+  "nivel": "Intermediário",
+  "modalidade": "Online ao vivo",
+  "carga_horaria": 64,
+  "duracao_semanas": 12,
+  "preco": 2890.0,
+  "prerequisito": "NT-102 ou Python básico, e NT-301",
+  "proxima_turma": "2026-12-01"
+}

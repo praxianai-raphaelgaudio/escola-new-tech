@@ -1,0 +1,12 @@
+{
+  "codigo": "NT-402",
+  "nome": "Fundamentos de Cibersegurança",
+  "area": "Segurança",
+  "nivel": "Iniciante",
+  "modalidade": "Online ao vivo",
+  "carga_horaria": 40,
+  "duracao_semanas": 8,
+  "preco": 1690.0,
+  "prerequisito": "Nenhum",
+  "proxima_turma": "2026-11-12"
+}

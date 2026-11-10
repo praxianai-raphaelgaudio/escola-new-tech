@@ -1,0 +1,12 @@
+{
+  "codigo": "NT-101",
+  "nome": "Lógica de Programação do Zero",
+  "area": "Programação",
+  "nivel": "Iniciante",
+  "modalidade": "Online ao vivo",
+  "carga_horaria": 40,
+  "duracao_semanas": 8,
+  "preco": 1290.0,
+  "prerequisito": "Nenhum",
+  "proxima_turma": "2026-11-03"
+}

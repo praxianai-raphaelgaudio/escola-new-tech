@@ -1,0 +1,59 @@
+{
+  "versao": "2026.2",
+  "pagamento": {
+    "formas": [
+      "Pix",
+      "boleto",
+      "cartão de crédito"
+    ],
+    "desconto_a_vista": 0.05,
+    "cartao": {
+      "parcelas_sem_juros_max": 6,
+      "parcelas_max": 12,
+      "juros_mensal": 0.0199,
+      "sistema": "Tabela Price"
+    },
+    "boleto": {
+      "parcelas_sem_juros_max": 6
+    },
+    "parcela_minima": 100.0
+  },
+  "descontos": {
+    "ex_aluno": 0.1,
+    "grupo": {
+      "minimo_pessoas": 3,
+      "desconto": 0.15
+    },
+    "bolsa_social": {
+      "desconto": 0.5,
+      "vagas_por_turma": 2
+    },
+    "cumulativos": false
+  },
+  "reembolso": [
+    {
+      "condicao": "até 7 dias corridos após a matrícula",
+      "percentual": 1.0
+    },
+    {
+      "condicao": "depois de 7 dias e antes do início da turma",
+      "percentual": 0.8
+    },
+    {
+      "condicao": "depois do início, até 25% da carga horária",
+      "percentual": 0.5
+    },
+    {
+      "condicao": "depois de 25% da carga horária",
+      "percentual": 0.0
+    }
+  ],
+  "matricula": {
+    "alunos_minimos_por_turma": 12
+  },
+  "certificado": {
+    "frequencia_minima": 0.75,
+    "exige_projeto_final": true,
+    "prazo_envio_dias": 15
+  }
+}
