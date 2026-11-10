@@ -9,7 +9,7 @@
     "duracao_semanas": 8,
     "preco": 1290.0,
     "prerequisito": "Nenhum",
-    "proxima_turma": "2026-11-03"
+    "proxima_turma": "2026-12-01"
   },
   {
     "codigo": "NT-102",
@@ -21,7 +21,7 @@
     "duracao_semanas": 8,
     "preco": 1590.0,
     "prerequisito": "NT-101 ou noções de lógica",
-    "proxima_turma": "2026-11-10"
+    "proxima_turma": "2026-12-08"
   },
   {
     "codigo": "NT-201",
@@ -33,7 +33,7 @@
     "duracao_semanas": 10,
     "preco": 2290.0,
     "prerequisito": "NT-102 ou Python básico",
-    "proxima_turma": "2026-11-17"
+    "proxima_turma": "2026-12-15"
   },
   {
     "codigo": "NT-202",
@@ -45,7 +45,7 @@
     "duracao_semanas": 6,
     "preco": 1190.0,
     "prerequisito": "Nenhum",
-    "proxima_turma": "2026-11-05"
+    "proxima_turma": "2026-12-03"
   },
   {
     "codigo": "NT-301",
@@ -69,7 +69,7 @@
     "duracao_semanas": 6,
     "preco": 1490.0,
     "prerequisito": "Noções de lógica",
-    "proxima_turma": "2026-11-24"
+    "proxima_turma": "2026-12-22"
   },
   {
     "codigo": "NT-303",
@@ -81,7 +81,7 @@
     "duracao_semanas": 12,
     "preco": 2890.0,
     "prerequisito": "NT-102 ou Python básico, e NT-301",
-    "proxima_turma": "2026-12-01"
+    "proxima_turma": "2026-12-29"
   },
   {
     "codigo": "NT-401",
@@ -93,7 +93,7 @@
     "duracao_semanas": 8,
     "preco": 1890.0,
     "prerequisito": "Nenhum",
-    "proxima_turma": "2026-11-07"
+    "proxima_turma": "2026-12-05"
   },
   {
     "codigo": "NT-402",
@@ -105,7 +105,7 @@
     "duracao_semanas": 8,
     "preco": 1690.0,
     "prerequisito": "Nenhum",
-    "proxima_turma": "2026-11-12"
+    "proxima_turma": "2026-12-10"
   },
   {
     "codigo": "NT-501",
@@ -117,6 +117,6 @@
     "duracao_semanas": 4,
     "preco": 990.0,
     "prerequisito": "Nenhum",
-    "proxima_turma": "2026-11-04"
+    "proxima_turma": "2026-12-02"
   }
 ]
